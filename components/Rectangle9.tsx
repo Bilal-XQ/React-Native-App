@@ -10,17 +10,17 @@ const Rectangle9 = () => {
 
 const styles = StyleSheet.create({
   	rectangle: {
-    		width: 10,
-    		height: 10,
+    		width: 84,
+    		height: 67,
     		backgroundColor: "#fff",
-    		borderRadius: 10,
+    		borderRadius: 15,
     		shadowColor: "rgba(0, 0, 0, 0.1)",
     		shadowOffset: {
       			width: 0,
-      			height: 0
+      			height: 2
     		},
-    		shadowRadius: 5,
-    		elevation: 5,
+    		shadowRadius: 8,
+    		elevation: 8,
     		shadowOpacity: 1
   	}
 });

@@ -82,27 +82,28 @@ const styles = StyleSheet.create({
     backgroundColor: "#FFFAEE"
   },
   topSection: {
-    height: 300,
+    height: 280,
     justifyContent: "center",
     alignItems: "center",
     backgroundColor: "#FFC244",
     borderBottomLeftRadius: 50,
-    borderBottomRightRadius: 50
+    borderBottomRightRadius: 50,
+    paddingBottom: 20
   },
   cardContainer: {
-    width: 70,
-    height: 70,
+    width: 84,
+    height: 67,
     justifyContent: "center",
     alignItems: "center",
     backgroundColor: "#FFFFFF",
-    borderRadius: 20,
+    borderRadius: 15,
     shadowColor: "rgba(0, 0, 0, 0.1)",
     shadowOffset: {
       width: 0,
-      height: 0
+      height: 2
     },
-    shadowRadius: 10,
-    elevation: 10,
+    shadowRadius: 8,
+    elevation: 8,
     shadowOpacity: 1
   },
   iconOverlay: {
@@ -114,13 +115,15 @@ const styles = StyleSheet.create({
   },
   contentSection: {
     flex: 1,
-    justifyContent: "center",
+    paddingHorizontal: 20,
+    paddingTop: 40,
     alignItems: "center"
   },
   appTitle: {
-    fontSize: 24,
+    fontSize: 28,
     fontWeight: "bold",
-    color: "#333"
+    color: "#000",
+    marginBottom: 30
   },
   	formSection: {
     		marginBottom: 40
